@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+titleTop {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.name {
+    background: blue;
+}
+
+.Links {
+    background: red;
+}
+
+aboutme {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.aboutMeText {
+    height: 500px;
+    background: green;
+}
+
+skills {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100px;
+}
+
+.skillsText {
+    background: grey;
+}
+
+.skillsIcons {
+    background: purple;
+}
+
+projects {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.projectText {
+    background: maroon;
+}
+
+img {
+    height: 300px;
+
+}
+
+.projectGallery img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.projectGallery {
+
+    padding: 80px;
+    display: grid;
+    background: lightgrey;
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
