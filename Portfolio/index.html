@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--BOOTSTRAP STYLESHEET-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+        <!--CSS STYLESHEET LINK-->
     <link rel="stylesheet" href="portfolioCSS.css">
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,600&display=swap" rel="stylesheet">
+
+
+
     <meta charset="UTF-8">
     <title>James Barkley Portfolio Test</title>
 </head>
 
 <body>
     <main>
-        <titleTop>
-            <div class="name">
-                <h1>Name</h1>
+        <!--BOOTSTRAP NAVBAR-->
+        <nav class="navbar fixed-top navbar-light">
+            <a  class='navbar' href="#"><h2 class='firstName'>JAMES<span class='lastName'>BARKLEY</span></h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> 
+             </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">    Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+              </ul>
+              
             </div>
-
-            <div class="Links">
-                <h1>Links</h1>
-            </div>
-
-        </titleTop>
+          </nav>
 
 
 
 
         <aboutme>
             <div class="aboutMeText">
-                <h1>About Me Foreal</h1>
+            <div class="aboutMeInfo">
+                <div class="text greeting">Hello, my name is James Barkley</div>
+                <div class="text aboutMe">I am a junior studying Computer Science at North Carolina State 
+                    University!
+                </div>
+                <div class=" text resume"><button class="resumeButton">Download Resume</button></div>
+            </div>
             </div>
 
         </aboutme>
@@ -33,12 +63,18 @@
 
         <skills>
             <div class="skillsText">
-                <h1>Skills</h1>
+                <a href="#"><i class="far fa-envelope"></i></a>
             </div>
 
             <div class="skillsIcons">
-                <h1>icons</h1>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
+
+            <div class="skillsIcons">
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+
+            
 
         </skills>
 
@@ -47,23 +83,71 @@
 
             <div class="projectText">
                 <h1>Projects</h1>
+                <h2></h2>
             </div>
 
             <div class="projectGallery">
-                <img src="https://images.unsplash.com/photo-1576413168154-035c50dae982?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+                <div class="container">
+                    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                    <div class="row">
+                      <div class=" project a col-md-8 col-sm-12">
+                       
+                          <div class="hovereffect" >
+                          <div class="overlay">
+                             <span class="projectTitle">PackDoption</span>
+                            <a class="info" href="#">link here</a>
+                        </div>
+                         </div>
+                        </div>
+                      <div class="project b col-md-4 col-sm-12"> 
+                        
+                        <div class="hovereffect" >
+                            <div class="overlay">
+                                <span class="projectTitle">PackDoption</span>
 
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+                              <a class="info" href="#">link here</a>
+                          </div>
+                           </div>
+                      </div>
+                      <div class="project c col-md-12 col-sm-12">
+                        
+                        <div class="hovereffect" >
+                            <div class="overlay">
+                                <span class="projectTitle">PackDoption</span>
 
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" alt="">
+                              <a class="info" href="#">link here</a>
+                          </div>
+                           </div>
+                      </div>
+                      <div class="project d col-md-6 col-sm-12">
+                       
+                        <div class="hovereffect" >
+                            <div class="overlay">
+                                <span class="projectTitle">PackDoption</span>
 
-                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+                              <a class="info" href="#">link here</a>
+                          </div>
+                           </div>
+                      </div>
+                      <div class="project e col-md-6 col-sm-12">
+                       
+                        <div class="hovereffect" >
+                            <div class="overlay">
+                                <span class="projectTitle">PackDoption</span>
 
-                <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80" alt="">
+                              <a class="info" href="#">link here</a>
+                          </div>
+                           </div>
+                      </div>
+                    </div>
             </div>
         </projects>
 
 
 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </main>
 </body>
 </html>
